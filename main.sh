@@ -25,19 +25,19 @@ function add {
 function sub {
     read -p "First: " First
     read -p "Second: " Second
-    expr $First + $Second
+    expr $First - $Second
 }
 
 function mul {
   read -p "First: " First
   read -r "Second: " Second
-  expr $First + $Second
+  expr $First * $Second
 }
 
 function div() {
  read -p "First: " First
  read -p "Second: " Second
- expr $First + $Second
+ expr $First / $Second
 }
 
 
